@@ -1,7 +1,6 @@
 # MCU name
 MCU = STM32F303
 
-
 # Build Options
 #   comment out to disable the options.
 #
@@ -14,9 +13,6 @@ SLEEP_LED_ENABLE = no  # Breathing sleep LED during USB suspend
 NKRO_ENABLE = yes		# USB Nkey Rollover - if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
 BACKLIGHT_ENABLE = yes  # Enable keyboard backlight functionality
 BACKLIGHT_DRIVER = pwm
-#BACKLIGHT_PWM_DRIVER = 
-#BACKLIGHT_PWM_CHANNEL = 
-#BACKLIGHT_PAL_MODE = 
 BACKLIGHT_ON_STATE = 1
 AUDIO_ENABLE = no
 RGBLIGHT_ENABLE = no
